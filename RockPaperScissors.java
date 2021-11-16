@@ -5,7 +5,7 @@ import java.util.Random;
 public class HW_t20_RockPaperScissors {
     public static void main(String[] args) {
 
-        Scanner Sc = new Scanner(System.in);   // For using Scan
+        Scanner Sc = new Scanner(System.in);   
         System.out.println("Welcome to ROCK PAPER SCISSORS GAME");
         System.out.println("Made by SWARAJ");
 
@@ -33,7 +33,9 @@ public class HW_t20_RockPaperScissors {
         Random ran = new Random();
 
         // Generating integer
+        
         int generated = ran.nextInt(3);
+        
         // System.out.println(generated); ---> For computer
         System.out.println("Computer have choose");
 
